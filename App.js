@@ -15,7 +15,7 @@ function App() {
       alert('Plz, write something')
       return
     }
-    if (indexNum > -1) {
+    if (indexNum && indexNum > -1) {
       list[indexNum] = {
         text: txt,
         time: JSON.stringify(new Date())
